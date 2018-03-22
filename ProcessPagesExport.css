@@ -1,0 +1,38 @@
+.import-form-item > .InputfieldContent p {
+	margin: 0;
+}
+
+.import-form-item > .InputfieldContent input, 
+.import-form-item > .InputfieldContent label {
+	display: inline;
+}
+
+.import-form-item > .InputfieldContent p.import-form-item-input {
+	margin-top: 0.25em;
+}
+
+.import-error {
+	color: crimson;
+}
+
+
+/* @kongondo */
+
+form#ProcessPagesExport.PW_23 li.Inputfield_pages_specific,
+form#ProcessPagesExport.PW_23 li.Inputfield_pages_parent,
+form#ProcessPagesExport.PW_23 li.Inputfield_options_parent,
+form#ProcessPagesExport.PW_23 li.Inputfield_pages_selector,
+form#ProcessPagesExport.PW_23 li.Inputfield_export_fields,
+form#ProcessPagesExport.PW_23 li.Inputfield_export_to {
+	display: none;
+}
+
+form#ProcessPagesExport.PW_24 li.Inputfield_export_fields,
+form#ProcessPagesExport.PW_24 li.Inputfield_export_to {
+	display: none;
+}
+
+form#ProcessPagesExport.PW_25 li.Inputfield_export_fields,
+form#ProcessPagesExport.PW_25 li.Inputfield_export_to {
+	display: none;
+}
